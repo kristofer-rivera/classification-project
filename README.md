@@ -24,8 +24,8 @@
 
 - The goal of this project is to find drivers of churn at Telco and answer the question: "Why are customers churning? 
 - Construct a Machine Learning classification model that can accurately predict customer churn.
-- Deliver a report that a layman can read through and understand the process and steps taken to reach insights.
-- Finally, make a recommendation to stakeholders.
+- Deliver a report that clearly lays out findings and insights, and summarizes the process taken to reach them.
+- Present recommendations to stakeholders.
 
 
 ### Initial Questions to Answer ##
