@@ -18,9 +18,9 @@
 - CSV file with customer_id, probability of churn, and prediction of churn
 - Live Presentation walking through report
 
-### Planning
+## Planning
 
-## Business Goals Goals##
+### Business Goals
 
 - The goal of this project is to find drivers of churn at Telco and answer the question: "Why are customers churning? 
 - Construct a Machine Learning classification model that can accurately predict customer churn.
@@ -28,7 +28,7 @@
 - Finally, make a recommendation to stakeholders.
 
 
-## Initial Questions to Answer ##
+### Initial Questions to Answer ##
 
 - Is there a service type more associated with churn than expected?
 - Is a certain payment or contract type associated with higher churn?
@@ -36,7 +36,7 @@
 - Do monthly charges increase with tenure? How does this affect churn?
 
 
-## Minimum Viable Product
+### Minimum Viable Product
 - Using exploratory analysis, find drivers of churn that can be used as features in a classification model that will predict churn at a rate greater than the baseline.
 
 ### Project Pipline
@@ -101,7 +101,7 @@
  	
 ### Can we predict churn?
 - ##### Best model was a Decision Tree using all features but I belive it was overfit. The model I recommend is a random forest using the top 5 features.
-- #### Using my recommended model, we can predict with 92% accuracy whether or not a customer will churn
+- #### Using my recommended model, we can predict with 92% accuracy whether or not a customer will churn.
 
 
 ### Data dictionary
