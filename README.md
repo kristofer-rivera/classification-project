@@ -72,12 +72,13 @@
 - Created visualizations using matplotlib and seaborn to better understand top drivers and create insights
 
 ### Model:
-
-- Created models on training data that utilized all features including decision trees, random forests, K neighrest neighbor and logistic regression
+- Calculated baseliine accuracy by assuming a mode that predicts no customers churn since that is the most common outcome
+- Split my data into 3 samples: train, validate, test
+- Created models fitted to training data that utilized all features including decision trees, random forests, K neighrest neighbor and logistic regression
 - Created models that only utilized top 5 features
 - Cretaed models that only utilized top 2 features
-- Compared accuracy scores and other metrics to choose 5 best performing models from a total of 14 to test on validate sample data
-- Tested my best performing model on validate data on a test sample data
+- Evaluated models on validate data and compared accuracy scores and other metrics to choose 3 best performing models from a total of 14
+- Tested my best performing model with the least dimensionality on test data set
 
 
 ## Executive Summary
@@ -100,8 +101,8 @@
 - They have a one or two year contract	
  	
 ### Can we predict churn?
-- ##### Best model was a Decision Tree using all features but I belive it was overfit. The model I recommend is a random forest using the top 5 features.
-- #### Using my recommended model, we can predict with 92% accuracy whether or not a customer will churn.
+- ##### Best model was a logistic regression model using all features but I belive it was overfit. The model I recommend is another logistic regression using only the top 5 drivers of churn as features. Using this model helps reduce the risk of overfitting.
+- #### Using my recommended model, we can predict with 76% accuracy whether or not a customer will churn.
 
 
 ### Data dictionary
