@@ -3,3 +3,5 @@ ipynb_checkpoints/
 .DS-Store
 --pycache--/
 *.xlsx
+telco.csv
+telco_copy.csv
